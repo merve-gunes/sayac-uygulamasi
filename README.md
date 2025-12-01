@@ -1,17 +1,17 @@
 ## Sayaç Uygulaması
 
--Bu proje, basit fakat şık tasarıma sahip bir arttırma-azaltma sayaç uygulamasıdır.
--Kullanıcı, sayacı artırabilir, azaltabilir, sıfırlayabilir ve karanlık mod temasını değiştirebilir.
--Modern arayüz tasarımı ve animasyon efektleriyle kullanıcı deneyimi geliştirilmiştir.
+Bu proje, modern arayüz tasarımına sahip basit bir artırma–azaltma sayaç uygulamasıdır.
+Kullanıcı; sayacı artırabilir, azaltabilir, sıfırlayabilir ve karanlık mod temasına geçiş yapabilir.
+Arayüz, animasyon efektleri ve responsive tasarım ile geliştirilmiştir.
 
 ## Özellikler
 
 -Sayacı arttırma, azaltma ve sıfırlama
-- Dark Mode (Gece modu)
-- Modern UI tasarımı (gölgelendirme, transition, animasyon)
+-Dark Mode (Gece modu)
+-Modern UI tasarımı (gölgelendirme, transition, animasyon)
 -Responsive görünüm
 -Click sayısı takibi
-- Buton hover efektleri
+-Buton hover efektleri
 
 ## Kullanılan Teknolojiler
 
