@@ -1,4 +1,4 @@
-##Sayaç Uygulaması
+## Sayaç Uygulaması
 
 -Bu proje, basit fakat şık tasarıma sahip bir arttırma-azaltma sayaç uygulamasıdır.
 -Kullanıcı, sayacı artırabilir, azaltabilir, sıfırlayabilir ve karanlık mod temasını değiştirebilir.
