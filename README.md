@@ -19,4 +19,4 @@
 -CSS3
 -JavaScript (Vanilla JS)
 -Google Fonts
-Canlı Site:
+
