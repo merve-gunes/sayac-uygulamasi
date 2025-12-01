@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9f9b9b;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s, color 0.4s;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.container {
+  text-align: center;
+  padding: 60px 50px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+.container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 4px;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+body.dark-mode .container {
+  background-color: #1e1e1e;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode h2 {
+  color: white;
+}
+
+.counter {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 4.5em;
+  font-weight: bold;
+  color: #2c3e50;
+  margin: 30px 0;
+  transition: transform 0.2s, color 0.4s;
+}
+
+body.dark-mode .counter {
+  color: #3498db;
+}
+.counter.animate {
+  transform: scale(1.4);
+  color: #e74c3c;
+}
+body.dark.mode .counter.animate {
+  color: #f1c40f;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  padding: 14px 28px;
+  font-size: 1.1em;
+  margin: 8px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+#incBtn {
+  background-color: #27ae60;
+  color: white;
+}
+#decBtn {
+  background-color: #e74c3c;
+  color: white;
+}
+#resetBtn {
+  background: #95a5a6;
+  color: white;
+}
+#incBtn:hover {
+  background: #219653;
+  transform: translateY(-3px);
+}
+#decBtn:hover {
+  background: #c0392b;
+  transform: translateY(-3px);
+}
+
+#resetBtn:hover {
+  background: #7f8c8d;
+  transform: translateY(-3px);
+}
+
+.clicks {
+  font-size: 1.2em;
+  margin: 12px 0;
+  color: #555;
+}
+body.dark-mode .clicks {
+  color: #bbb;
+}
+.theme-btn {
+  margin-top: 25px;
+  padding: 10px 20px;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.theme-btn:hover {
+  background-color: #8e44ad;
+}
